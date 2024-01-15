@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webapi", "webapi\webapi.csproj", "{43AA53C1-CC90-4BB5-A442-3503BE0061FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "webapi", "webapi\webapi.csproj", "{43AA53C1-CC90-4BB5-A442-3503BE0061FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webmvc", "webmvc\webmvc.csproj", "{2F5B8A70-1950-4747-A8B7-2BD4B00B8D50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "webmvc", "webmvc\webmvc.csproj", "{2F5B8A70-1950-4747-A8B7-2BD4B00B8D50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mauiapp", "mauiapp\mauiapp.csproj", "{53918492-F116-4FE2-B987-C32CD75FA86A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mauiapp", "mauiapp\mauiapp.csproj", "{53918492-F116-4FE2-B987-C32CD75FA86A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpfapp", "wpfapp\wpfapp.csproj", "{0BCA91EA-56CE-4620-A323-386DE3D232FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{53918492-F116-4FE2-B987-C32CD75FA86A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53918492-F116-4FE2-B987-C32CD75FA86A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{53918492-F116-4FE2-B987-C32CD75FA86A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0BCA91EA-56CE-4620-A323-386DE3D232FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BCA91EA-56CE-4620-A323-386DE3D232FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BCA91EA-56CE-4620-A323-386DE3D232FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BCA91EA-56CE-4620-A323-386DE3D232FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
